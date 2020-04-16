@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stahl - Soluciones Industriales</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</head>
+<body>
+    <header class="s-header">
+        <div class="s-header__brand">
+            <a href="/">
+                <img src="images/logo-stahl-white.svg" alt="Logotipo Stahl">
+            </a>
+        </div>
+        <div class="s-header__burger" id="js-header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="s-nav">
+            <a href="#cover" class="s-nav__link">inicio</a>
+            <a href="#nosotros" class="s-nav__link">nosotros</a>
+            <a href="#servicios" class="s-nav__link">servicios</a>
+            <a href="#clientes" class="s-nav__link">clientes</a>
+            <a href="#contacto" class="s-nav__link">contacto</a>
+            <div class="s-header__line"></div>
+            <div class="s-header__iso">iso 9001:2015</div>
+        </nav>
+    </header>
+    <main class="s-main">
+        <section class="s-cover" id="cover">
+            <div class="s-cover__video">
+                <div class="s-cover__video--bg"></div>
+                <video id="s-video" autoplay muted loop>
+                    <source src="videos/video-prueba.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="s-cover__info">
+                <h1 class="s-cover__info--title">La calidad es nuestra prioridad</h1>
+                <p class="s-cover__info--paragraph">Servicio profesional y especializado de maquinados industriales</p>
+            </div>
+            <div class="s-cover__iso">
+                <img src="images/iso9001.svg" alt="stahl iso 9001">
+            </div>
+        </section>
+        <section class="s-about" id="nosotros">
+            <div class="s-about__info">
+                <h2 class="s-about__info--title">
+                    <span>Acerca de</span>
+                    Nosotros
+                </h2>
+                <p><strong>STAHL</strong> es una empresa mexicana enfocada al maquinado de piezas metálicas con alta precisión, nuestro compromiso es exceder las espectativas de nuestros clientes elaborando piezas con la mejor calidad así como hacer las entregas en tiempo y forma.</p>
+            </div>
+            <div class="s-about__gallery">
+                <div class="s-about__gallery--bg"></div>
+                <div class="s-about__gallery--slides owl-carousel">
+                    <div class="s-about__img" style="background-image:url(images/STAHL_1.jpg);"></div>
+                    <div class="s-about__img" style="background-image:url(images/STAHL_2.jpg);"></div>
+                    <div class="s-about__img" style="background-image:url(images/STAHL_3.jpg);"></div>
+                    <div class="s-about__img" style="background-image:url(images/STAHL_4.jpg);"></div>
+                    <div class="s-about__img" style="background-image:url(images/STAHL_5.jpg);"></div>
+                </div>
+                <div class="s-about__gallery--paginator--prev">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
+                        <g>
+                            <g id="chevron-right">
+                                <polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153 "/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="s-about__gallery--paginator--next">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
+                        <g>
+                            <g id="chevron-right">
+                                <polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153 "/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div id="s-about__gallery--counter" class="s-about__gallery--counter"></div>
+            </div>
+        </section>
+        <section class="s-services" id="servicios">
+            <div class="s-services__bg" style="background-image:url( images/servicio-maquinado.jpg);"></div>
+            <div class="s-services__title">
+                <h2>Servicios</h2>
+                <div class="s-services__subtitle">Especializados en maquinados CNC</div>
+            </div>
+            <div class="s-services__boxes">
+                <div class="s-services__box is-active" data-image=" images/servicio-maquinado.jpg">
+                    <div class="s-services__box--img">
+                        <img src=" images/maquinado.png" alt="Stahl Maquinado">
+                    </div>
+                    <div class="s-services__box--title">Maquinado</div>
+                </div>
+                <div class="s-services__box" data-image=" images/servicio-maquinado.jpg">
+                    <div class="s-services__box--img">
+                        <img src=" images/torno.png" alt="Stahl Torno">
+                    </div>
+                    <div class="s-services__box--title">Torno</div>
+                </div>
+                <div class="s-services__box" data-image=" images/servicio-soldadura.jpg">
+                    <div class="s-services__box--img">
+                        <img src=" images/soldadura.png" alt="Stahl Soldadura">
+                    </div>
+                    <div class="s-services__box--title">Soldadura</div>
+                </div>
+            </div>
+        </section>
+        <section class="s-products">
+            <div class="s-products__info">
+                <h2 class="s-products__info--title">Nuestros trabajos hablan por si solos.</h2>
+                <p>Conoce más sobre ellos.</p>
+            </div>
+            <div class="s-products__gallery">
+                <div class="s-products__gallery--bg"></div>
+                <div class="s-products__gallery--slides owl-carousel">
+                    <div class="s-products__img" style="background-image:url( images/pieza1.jpg);">
+                        <a class="s-products__link" href="#" data-image=" images/pieza1.jpg" data-title="Lorem ipsum" data-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam quis maxime consequuntur nam, sapiente ex. Modi laboriosam commodi">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="s-products__img" style="background-image:url( images/pieza2.jpg);">
+                        <a class="s-products__link" href="#" data-image=" images/pieza2.jpg" data-title="Lorem ipsum" data-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam quis maxime consequuntur nam, sapiente ex. Modi laboriosam commodi">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="s-products__img" style="background-image:url( images/pieza3.jpg);">
+                        <a class="s-products__link" href="#" data-image=" images/pieza3.jpg" data-title="Lorem ipsum" data-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam quis maxime consequuntur nam, sapiente ex. Modi laboriosam commodi">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="s-products__img" style="background-image:url( images/STAHL_4.jpg);">
+                        <a class="s-products__link" href="#" data-image=" images/STAHL_4.jpg" data-title="Lorem ipsum" data-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam quis maxime consequuntur nam, sapiente ex. Modi laboriosam commodi">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                    <div class="s-products__img" style="background-image:url( images/STAHL_5.jpg);">
+                        <a class="s-products__link" href="#" data-image=" images/STAHL_5.jpg" data-title="Lorem ipsum" data-description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quisquam quis maxime consequuntur nam, sapiente ex. Modi laboriosam commodi">
+                            <span></span>
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="s-products__gallery--paginator--prev">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
+                        <g>
+                            <g id="chevron-right">
+                                <polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153 "/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+                <div class="s-products__gallery--paginator--next">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
+                        <g>
+                            <g id="chevron-right">
+                                <polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153 "/>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <section class="s-clients" id="clientes" style="background-image:url( images/stahl-piezas.png);">
+            <div class="s-clients__info">
+                <h2 class="s-clients__info--title">Clientes</h2>
+            </div>
+            <div class="s-clients__brands">
+                <div class="s-clients__brand"><img src=" images/logo-magnacims.png" alt="Magna Cims"></div>
+                <div class="s-clients__brand"><img src=" images/logo-pace-industries.png" alt="Pace Industries"></div>
+                <div class="s-clients__brand"><img src=" images/logo-magna-closures.png" alt="Magna Closures"></div>
+                <div class="s-clients__brand"><img src=" images/logo-lenox.png" alt="Lenox"></div>
+            </div>
+        </section>
+        <section class="s-contact" id="contacto">
+            <div class="s-contact__info">
+                <div class="s-contact__info--title">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="s-contact__info--wrap map">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="s-contact__item">
+                        <div class="s-contact__item--title">Ubicación</div>
+                        <p>Blvd. Vito Alessio Robles #3045</br>Col. Valle del Rio Grande,</br>Saltillo Coahuila.</p>
+                    </div>
+                </div>
+                <div class="s-contact__info--wrap phone">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="s-contact__item">
+                        <div class="s-contact__item--title">Teléfono</div>
+                        <a href="tel:52 1 844 4393329">+52 1 844 4393329</a>
+                    </div>
+                </div>
+                <div class="s-contact__info--wrap email">
+                    <i class="fas fa-envelope"></i>
+                    <div class="s-contact__item">
+                        <div class="s-contact__item--title">Correo</div>
+                        <a href="mailto:admin@s-stahl.com">admin@s-stahl.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="s-contact__form">
+                <form action="contact.php" method="post">
+                    <div class="elem-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" placeholder="Nombre" required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="email">Correo:</label>
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                    </div>
+                    <div class="elem-group">
+                        <label for="subject">Asunto:</label>
+                        <input type="text" id="subject" name="subject" required placeholder="Asunto">
+                    </div>
+                    <div class="elem-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" placeholder="Mensaje" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <div class="s-popup-nav">
+            <div class="s-popup-nav--overlay"></div>
+            <div class="s-popup-nav--header">
+                <div class="s-popup-nav--close" id="js-popup-nav--close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="s-popup-nav--body">
+                <a class="s-popup-nav--link" href="#inicio">Inicio</a>
+                <a class="s-popup-nav--link" href="#nosotros">Nosotros</a>
+                <a class="s-popup-nav--link" href="#servicios">Servicios</a>
+                <a class="s-popup-nav--link" href="#clientes">Clientes</a>
+                <a class="s-popup-nav--link" href="#contacto">Contacto</a>
+            </div>
+        </div>
+        <div class="s-popup-product">
+            <div class="s-popup-product--overlay"></div>
+            <div class="s-popup-product--header">
+                <div class="s-popup-product--close" id="js-popup-product--close">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="s-popup-product--body">
+                <div class="s-popup-product--content">
+                    <h2 class="s-popup-product--title"></h2>
+                    <p class="s-popup-product--description"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="s-footer">
+        <div class="s-footer__copy">&copy; STAHL 2019</div>
+        <div class="s-footer__social">
+            <a href="https://www.facebook.com/stahlsolucionesindustriales/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/stahl_solind/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
