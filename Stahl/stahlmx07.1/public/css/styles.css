@@ -834,7 +834,7 @@ main{
 @media (min-width: 1024px){
     .s-clients{
         padding: 0px;
-        height: 400px;
+        height: 540px;
         margin-bottom: 100px;
     }
     .s-clients__info{
@@ -846,6 +846,9 @@ main{
     .s-clients__brands{
         height: 100%;
         align-items: center;
+        box-sizing: border-box;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
     .s-clients__brand{
         width: 250px;
