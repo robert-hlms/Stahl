@@ -108,19 +108,31 @@
             <div class="s-services__boxes">
                 <div class="s-services__box is-active" data-image=" {{$SERVICIO_M->description}} ">
                     <div class="s-services__box--img">
-                        <img src=" images/maquinado.png" alt="Stahl Maquinado">
+                        <img src="images/milling.png" alt="Stahl Milling">
                     </div>
                     <div class="s-services__box--title"> {{$SERVICIO_M->title}} </div>
                 </div>
                 <div class="s-services__box" data-image=" {{$SERVICIO_T->description}} ">
                     <div class="s-services__box--img">
-                        <img src=" images/torno.png" alt="Stahl Torno">
+                        <img src="images/lathes.png" alt="Stahl Lathes">
                     </div>
                     <div class="s-services__box--title"> {{$SERVICIO_T->title}} </div>
                 </div>
                 <div class="s-services__box" data-image=" {{$SERVICIO_S->description}} ">
                     <div class="s-services__box--img">
-                        <img src=" images/soldadura.png" alt="Stahl Soldadura">
+                        <img src="images/welding.png" alt="Stahl Welding">
+                    </div>
+                    <div class="s-services__box--title"> {{$SERVICIO_S->title}} </div>
+                </div>
+                <div class="s-services__box" data-image=" {{$SERVICIO_S->description}} ">
+                    <div class="s-services__box--img">
+                        <img src="images/wire-cut-edm.png" alt="Stahl Wire Cut EDM">
+                    </div>
+                    <div class="s-services__box--title"> {{$SERVICIO_S->title}} </div>
+                </div>
+                <div class="s-services__box" data-image=" {{$SERVICIO_S->description}} ">
+                    <div class="s-services__box--img">
+                        <img src="images/heat-treatment.png" alt="Stahl Heat Treatment">
                     </div>
                     <div class="s-services__box--title"> {{$SERVICIO_S->title}} </div>
                 </div>

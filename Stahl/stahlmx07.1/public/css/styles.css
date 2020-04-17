@@ -455,7 +455,7 @@ main{
 /* SERVICES */
 .s-services{
     position: relative;
-    height: 480px;
+    height: 800px;
     margin-bottom: 50px;
 }
 .s-services__title{
@@ -518,7 +518,7 @@ main{
 .s-services__box{
     cursor: pointer;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
 }
 .s-services__box--img img{
     width: 60px;
@@ -533,30 +533,35 @@ main{
 }
 @media (min-width: 768px){
 
+    .s-services{
+        height: 700px;
+    }
+
     .s-services__title{
         padding-left: 45px;
     }
     .s-services__boxes{
         flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
         left: 0;
+        padding-top: 150px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
     }
     .s-services__box{
         position: relative;
-        width: 33.3%;
-        height: 100%;
+        width: 30%;
+        height: 200px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-bottom: 0;
-    }
-    .s-services__box:nth-child(2){
-        border-left: 1px solid #ffffff;
-        border-right: 1px solid #ffffff;
     }
     .s-services__box.is-active:before{
         content: '';
@@ -570,7 +575,7 @@ main{
 }
 @media (min-width: 1024px){
     .s-services{
-        height: 688px;
+        height: 768px;
         margin-bottom: 100px;
     }
     .s-services__title{
@@ -590,12 +595,37 @@ main{
         font-size: 24px;
         line-height: 30px;
     }
+    .s-services__boxes{
+        padding-top: 200px;
+        width: calc(100%  - 60px);
+        right: 0;
+        margin: 0px auto;
+    }
     .s-services__box--img img{
         width: 100px;
     }
     .s-services__box--title{
         font-size: 18px;
         padding-top: 15px;
+    }
+}
+@media (min-width: 1366px){
+    .s-services__boxes{
+        width: calc(100%  - 120px);
+    }
+    .s-services__box{
+        height: 250px;
+    }
+}
+@media (min-width: 1920px){
+    .s-services{
+        height: 940px;
+    }
+    .s-services__boxes{
+        width: calc(100%  - 180px);
+    }
+    .s-services__box{
+        height: 300px;
     }
 }
 /* PRODUCTS */
